@@ -11,7 +11,7 @@ class Wormhole < Formula
   end
 
   bottle do
-    root_url "https://github.com/agrinman/wormhole/releases/download/v0.1.2/wormhole-macOS.tar.gz"
+    root_url "https://github.com/agrinman/wormhole/releases/download/v0.1.2/"
     cellar :any_skip_relocation
     sha256 "c253c843042e8d2a6abfbd4767cf6088d9914eee7c67ff200d1dcf838d835e53" => :catalina
   end
