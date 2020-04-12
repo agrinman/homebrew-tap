@@ -2,7 +2,7 @@ class Wormhole < Formula
   desc "expose your local web server to the internet with a public url"
   homepage "https://github.com/agrinman/wormhole"
   url "https://github.com/agrinman/wormhole/archive/v0.1.2.zip"
-  sha256 "f18be20190906206fc9bdf45bf162301a934608965ec267b701bd6cfa81fd01b"
+  sha256 "c0775421a5fc525fe69a5a3765db1723c6c61536bfaa3f689164193d250ca5ab"
 
   depends_on "rust" => :build
 
@@ -13,7 +13,7 @@ class Wormhole < Formula
   bottle do
     root_url "https://github.com/agrinman/wormhole/releases/download/v0.1.2/wormhole-macOS.tar.gz"
     cellar :any_skip_relocation
-    sha256 "c703678597a80740295b5c5e0aa8938979f397a2e7015bca59b066c5372b3f13" => :catalina
+    sha256 "c253c843042e8d2a6abfbd4767cf6088d9914eee7c67ff200d1dcf838d835e53" => :catalina
   end
 
   test do
