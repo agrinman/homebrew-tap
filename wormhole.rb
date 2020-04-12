@@ -13,7 +13,7 @@ class Wormhole < Formula
   bottle do
     root_url "https://github.com/agrinman/wormhole/releases/download/v0.1.2/"
     cellar :any_skip_relocation
-    sha256 "60e93a7f61e56cb8dd3ea1767eb80305a523e430598e7c7da079db2143fe37c9" => :catalina
+    sha256 "e5542c7c6c647558b392f84fd3b40cfbededa43a656d11902577832065a2da90" => :catalina
   end
 
   test do
