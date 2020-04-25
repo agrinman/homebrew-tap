@@ -13,7 +13,7 @@ class Wormhole < Formula
   bottle do
     root_url "https://github.com/agrinman/wormhole/releases/download/0.1.5"
     sha256 "944ebc5e1a464f562b0ddca2b34da3738c04086952426db22456916b58d3e297" => :catalina
-  ends
+  end
 
   test do
     system "#{bin}/wormhole", "--help"
