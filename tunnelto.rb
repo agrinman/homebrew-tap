@@ -1,4 +1,4 @@
-class Wormhole < Formula
+class Tunnelto < Formula
   desc "expose your local web server to the internet with a public url"
   homepage "https://github.com/agrinman/tunnelto"
   url "https://github.com/agrinman/tunnelto/archive/0.1.6.zip"
@@ -16,6 +16,6 @@ class Wormhole < Formula
   end
 
   test do
-    system "#{bin}/wormhole", "--help"
+    system "#{bin}/tunnelto", "--help"
   end
 end
