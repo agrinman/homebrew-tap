@@ -1,8 +1,8 @@
 class Tunnelto < Formula
-  desc "expose your local web server to the internet with a public url"
+  desc "Expose your local web server to the internet with a public url: https://tunnelto.dev"
   homepage "https://github.com/agrinman/tunnelto"
-  url "https://github.com/agrinman/tunnelto/archive/0.1.9.zip"
-  sha256 "866c3b8431b34df61a0650b777a183a22f25f0a2c7d3da1a6eae20d09aad76d8"
+  url "https://github.com/agrinman/tunnelto/archive/0.1.10.zip"
+  sha256 "aa3bc35b26a7c7a96ca4669a6855617d80e631f8a114ebe8fb2cc696bbe27840"
 
   depends_on "rust" => :build
 
@@ -11,8 +11,9 @@ class Tunnelto < Formula
   end
 
   bottle do
-    root_url "https://github.com/agrinman/tunnelto/releases/download/0.1.9"
-    sha256 "8bba2bf602365148e777cd82d23a75fac0d4d96db3d2006cb01b0a275dc9372f" => :catalina
+    root_url "https://github.com/agrinman/tunnelto/releases/download/0.1.10"
+    sha256 "a0144d08c58772b255cad1d9bbfdb9196f812530f3e887490995cde36ba25e3e" => :catalina
+    sha256 "a0144d08c58772b255cad1d9bbfdb9196f812530f3e887490995cde36ba25e3e" => :big_sur    
   end
 
   test do
