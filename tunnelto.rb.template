@@ -11,7 +11,7 @@ class Tunnelto < Formula
   end
 
   bottle do
-    root_url "https://github.com/agrinman/tunnelto/releases/download/_VERSION_.zip"
+    root_url "https://github.com/agrinman/tunnelto/releases/download/_VERSION_"
     sha256 "_BIN_SHA2_" => :catalina
     sha256 "_BIN_SHA2_" => :big_sur    
   end
