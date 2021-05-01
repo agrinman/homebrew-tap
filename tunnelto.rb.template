@@ -13,7 +13,7 @@ class Tunnelto < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", "--bin", "tunnelto", "--locked", "--root", "#{prefix}", "--path", "./tunnelto"
+    system "cargo", "install", "--bin", "tunnelto", "--locked", "--root", prefix.to_s, "--path", "./tunnelto"
   end
 
   test do
