@@ -1,13 +1,13 @@
 class Tunnelto < Formula
   desc "Expose your local web server to the internet with a public url: https://tunnelto.dev"
   homepage "https://github.com/agrinman/tunnelto"
-  url "https://github.com/agrinman/tunnelto/archive/0.1.16.zip"
-  sha256 "66cbd4dadea55be31d865074f94de996f78352628119e20fb343fe6a9694ba2e"
+  url "https://github.com/agrinman/tunnelto/archive/0.1.18.zip"
+  sha256 "4730383204d6120da784d88d517a8464ea39f2ea66e75e00a2ce6147f964a038"
 
   bottle do
-    root_url "https://github.com/agrinman/tunnelto/releases/download/0.1.16"
-    sha256 catalina:  "f6e06ec835c02ff1f08cc12c77b067bce8eddd96b9015cefef250353c89e1fbd"
-    sha256 big_sur: "f6e06ec835c02ff1f08cc12c77b067bce8eddd96b9015cefef250353c89e1fbd"
+    root_url "https://github.com/agrinman/tunnelto/releases/download/0.1.18"
+    sha256 catalina:  "99736bcb172f9cbed127f25a80a6b91fe355c4673461878962d7b5ac94782db1"
+    sha256 big_sur: "99736bcb172f9cbed127f25a80a6b91fe355c4673461878962d7b5ac94782db1"
   end
 
   depends_on "rust" => :build
